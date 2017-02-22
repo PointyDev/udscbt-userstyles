@@ -92,7 +92,7 @@ a:hover {
     background-position: -2px -3px !important;
     background-size: 30px;
 }
-.gb_Ec .gb_Fc {
+.gb_Cc {
     width: 25px;
     height: 25px;
     margin: 0;
@@ -142,13 +142,11 @@ a:hover {
 	left: 0;
 	width: auto !important;
 }
-.gb_wb.gb_Me, .gb_Ha {
-    background: #4d90fe;
-}
-.gb_wb.gb_Me:hover, .gb_Ha:hover {
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
+.gb_wb.gb_Me, .gb_rb .gb_xb {
+    background: #4d90fe !important;
 }
 .gb_wb.gb_Me:hover {
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
     background: #4d90fe;
 }
 .gb_vb {
