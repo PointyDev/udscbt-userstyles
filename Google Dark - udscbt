@@ -42,20 +42,20 @@
 .s2tb .spchc, .s2tb-h .spchc {
 	background-color: #292929 !important;
 }
-.gb_fa .gb_b, .gb_Ec .gb_Fc, ._Zgf {
+.gb_fa .gb_b, .gb_Cc, ._Zgf {
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
 }
 .gbii, .gbip {
 	filter: brightness(80%);
 }
-.gb_O:before, .gb_yb:before, g-menu-item a:before, #sfdiv:before {
+.gb_O:before, .gb_xb:before, g-menu-item a:before, #sfdiv:before {
 	background: #DDD !important;
 }
-.gb_ka, .gb_ha, .hdtb-mn-o, .hdtb-mn-c, .hdtbItm, g-menu, .gb_yb .gb_xb, .gb_zb .gb_yb, .ab_dropdown, .action-menu-panel, .sbsb_a, .gb_zb, .gb_xb {
+.gb_ka, .gb_ha, .hdtb-mn-o, .hdtb-mn-c, .hdtbItm, g-menu, .gb_yb .gb_xb, .gb_zb .gb_yb, .ab_dropdown, .action-menu-panel, .sbsb_a, .gb_zb, .gb_yb {
 	background: #292929 !important;
 }
-.gb_Z:hover .gb_O, .gb_Z:hover .gb_4, .hdtbItm a:hover, #cdrlnk:hover, .gb_zb .gb_yb:hover, .gb_Cb, .gb_Db:hover, .ab_dropdownitem:hover, .action-menu-item:hover, .sbsb_d, g-menu-item:hover {
+.gb_Z:hover .gb_O, .gb_Z:hover .gb_4, .hdtbItm a:hover, #cdrlnk:hover, .gb_yb .gb_xb:hover, .gb_Cb, .gb_Db:hover, .ab_dropdownitem:hover, .action-menu-item:hover, .sbsb_d, g-menu-item:hover {
     background: #303030 !important;
 }
 .gb_ma, .gb_la, .cdr_sep, .vk_arc {
