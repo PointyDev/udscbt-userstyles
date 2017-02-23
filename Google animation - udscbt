@@ -1,4 +1,4 @@
-.gb_O, .gb_xb, g-menu-item a, #sfdiv {
+.gb_O, .gb_yb, g-menu-item a, #sfdiv {
 	position: relative;
 	overflow: hidden;
 	transition: background 0.2s;
@@ -9,7 +9,7 @@
 #sfdiv {
 	transition: box-shadow 0.5s, border 0.5s, background 0.5s;
 }
-.gb_O:before, .gb_xb:before, g-menu-item a:before, #sfdiv:before {
+.gb_O:before, .gb_yb:before, g-menu-item a:before, #sfdiv:before {
 	content: '';
   	display: block;
   	position: absolute;
@@ -47,7 +47,7 @@
 	margin-left: -90px;
 	margin-top: -90px;
 }
-.gb_xb:active:before, g-menu-item a:active:before {
+.gb_yb:active:before, g-menu-item a:active:before {
 	animation: ripple 0.3s ease-out;
 }
 .gb_O:active:before {
