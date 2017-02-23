@@ -840,7 +840,12 @@ g-scrolling-carousel {
 	margin: 0 !important;
 }
 g-section-with-header g-scrolling-carousel {
-        margin: 5px -20px !important
+    margin: 5px -20px !important
+}
+g-section-with-header g-scrolling-carousel._Ncr {
+	margin: 0 !important;
+	background: none !important;
+	box-shadow: none !important;
 }
 ._d5i {
 	padding: 10px 0 10px 15px;
