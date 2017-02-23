@@ -92,7 +92,7 @@ a:hover {
     background-position: -2px -3px !important;
     background-size: 30px;
 }
-.gb_Cc {
+a.gb_b>div {
     width: 25px;
     height: 25px;
     margin: 0;
@@ -142,7 +142,7 @@ a:hover {
 	left: 0;
 	width: auto !important;
 }
-.gb_wb.gb_Me, .gb_rb .gb_xb {
+.gb_wb.gb_Me, .gb_rb .gb_yb {
     background: #4d90fe !important;
 }
 .gb_wb.gb_Me:hover {
@@ -168,33 +168,24 @@ a:hover {
     font-size: 12px;
     margin: 0;
 }
-.gb_xb, .gb_yb, .gb_zb {
+.gb_Ha, .gb_zb {
     border: 0;
     background: #FFF;
     box-shadow: none;
-    transition: background 0.2s box-shadow 0.15s;;
+	cursor: pointer !important;
+    transition: background 0.2s, box-shadow 0.15s;;
 }
-.gb_Ia {
+.gb_rb .gb_yb {
     background: #4285f4;
 }
-.gb_Ia:hover {
+.gb_rb .gb_yb:hover {
     background: #4683ea !important;
 }
-.gb_yb:hover {
-    background: #EEE;
+.gb_Ha:hover {
+    background: #EEE !important;
     box-shadow: none;
 }
-.gb_Fa {
-    border: 0;
-    background: #FFFFFF;
-    box-shadow: none;
-    cursor: pointer !important;
-    transition: background 0.2s, box-shadow 0.15s;
-}
-.gb_Fa:hover {
-    background: #EEE;
-}
-.gb_Fa:active {
+.gb_Ha:active {
     background: #EEE;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
 }
