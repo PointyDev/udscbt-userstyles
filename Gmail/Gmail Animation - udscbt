@@ -1,0 +1,9 @@
+.aAy.J-KU-KO:before {
+	animation: fadeInBar 0.5s;
+	animation-delay: 0.1s;
+	animation-fill-mode: backwards;
+}
+@keyframes fadeInBar {
+	0%		{width: 0; opacity: 0}
+	100%	{width: 65%; opacity: 1}
+}
