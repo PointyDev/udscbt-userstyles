@@ -4,7 +4,7 @@
 }
 #sfdiv, #sfdiv:hover, .sbfcn {
 	border-color: transparent !important;
-    background: #111 !important;
+    background: #363636 !important;
 }
 #sfdiv.sbfcn, #sfdiv.sbfcn #lst-ib {
 	background: #333 !important;
@@ -21,7 +21,7 @@
 }
 #lst-ib {
 	color: #DDD !important;
-	background: #111 !important;
+	background: #363636 !important;
 }
 .gsc_b {
 	display: none !important;
@@ -34,7 +34,7 @@
 	background: #455A64 !important;
 }
 #logo img, #logocont img {
-	background-color: #424242 !important;
+	background-color: #363636 !important;
 }
 .hp #spch {
 	background-color: #292929 !important;
@@ -49,7 +49,7 @@
 .gbii, .gbip {
 	filter: brightness(80%);
 }
-.gb_O:before, .gb_xb:before, g-menu-item a:before, #sfdiv:before {
+.gb_O:before, .gb_yb:before, g-menu-item a:before, #sfdiv:before {
 	background: #DDD !important;
 }
 .gb_ka, .gb_ha, .hdtb-mn-o, .hdtb-mn-c, .hdtbItm, g-menu, .gb_yb .gb_xb, .gb_zb .gb_yb, .ab_dropdown, .action-menu-panel, .sbsb_a, .gb_zb, .gb_yb {
@@ -59,9 +59,12 @@
     background: #303030 !important;
 }
 .gb_ma, .gb_la, .cdr_sep, .vk_arc {
-	border-color: #666;
+	border-color: #666 !important;
 }
-.gb_la {
+.wob_df {
+	border-color: transparent !important;
+}
+.gb_la, .wob_ds {
 	background: #666 !important;
 }
 #hdtb .hdtb-mitem.hdtb-msel:before {
@@ -80,13 +83,13 @@
 #hdtb-tls:hover {
 	background: #333;
 }
-#hdtb-tls.hdtb-tl-sel, #hdtb-tls:active {
+#hdtb-tls.hdtb-tl-sel, #hdtb-tls:active, .wob_ds, #nqsbq, .ab_button[aria-label="Search button"] {
 	background: #555 !important;
 }
 .hdtb-mitem a:hover {
 	color: #888 !important;
 }
-.gb_sb {
+.gb_tb {
 	border-color: #00897B;
 	box-shadow: 0 0 8px 0 #004D40;
 }
@@ -116,13 +119,13 @@
 .g a, ._dTj, ._MLo, ._NLo, #center_col ._Ak a._kBb, .lr_dct_more_btn, .gb_ob a, ._Mqe, ._tX, .w {
     color: #2196F3 !important;
 }
-.s, .s .st em, .st.s.std em, ._AOf, .st, .kno-fb-ctx, ._xdb .fl, #center_col ._Ak, .ads-creative b, body, ._Lqc, .lc-loc-text, .sr__title, .stt__tool, #gb#gb a.gb_O, .gb_la, .gb_ma, .gb_vb, .gb_yb .gb_xb, .gb_Ob, ._pk, ._Adb, ._W5e a, ._czk, a.ab_button, ._W5e, ._Xbe, ._xdb .fl, .knowledge-webanswers_table__webanswers-table th, .ab_ctl, .vk_bk {
+.s, .s .st em, .st.s.std em, ._AOf, .st, .kno-fb-ctx, ._xdb .fl, #center_col ._Ak, .ads-creative b, body, ._Lqc, .lc-loc-text, .sr__title, .stt__tool, #gb#gb a.gb_O, .gb_la, .gb_ma, .gb_vb, .gb_yb .gb_xb, .gb_Ob, ._pk, ._Adb, ._W5e a, ._czk, a.ab_button, ._W5e, ._Xbe, ._xdb .fl, .knowledge-webanswers_table__webanswers-table th, .ab_ctl, .vk_bk, .ksbs {
 	color: #BDBDBD !important;
 }
 .hdtb-mn-hd, .hdtbItm.hdtbSel, g-menu-item a, ._Gs {
 	color: #AAA !important;
 }
-._Wmc, .f, ._v5, ._cwc, .ftl, #footer a, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Axb, .sr__link, .sr__link:link, .sr__link:visited, .gb_wb, .gb_Pb, ._RLb, ._Y6c, ._fnc, ._kub, a._Zjg, ._Q8d, ._mVg, ._HKg, .vk_gy {
+._Wmc, .f, ._v5, ._cwc, .ftl, #footer a, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Axb, .sr__link, .sr__link:link, .sr__link:visited, .gb_wb, .gb_Pb, ._RLb, ._Y6c, ._fnc, ._kub, a._Zjg, ._Q8d, ._mVg, ._HKg, .vk_gy, .ksb:not(.ksbs) {
 	color: #858585 !important;
 }
 .hdtb-mn-hd:hover, .hdtbItm, ._HR a, #swml a:hover {
@@ -173,9 +176,15 @@
 ._ojo h3 {
 	color: #BDBDBD !important;
 }
-g-scrolling-carousel, g-card-grid {
+#gsr g-section-with-header g-scrolling-carousel, g-card-grid {
 	background: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXQzNXNGY0Q1FYa2c') no-repeat !important;
-	background-size: 640px auto !important;
+	background-size: 650px auto !important;
+	box-shadow: 0 20px 0 0 #333 !important;
+}
+#gsr g-section-with-header g-scrolling-carousel._Ncr, #gsr g-section-with-header g-scrolling-carousel._JSq {
+	background: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXQzNXNGY0Q1FYa2c') no-repeat !important;
+	background-size: 650px auto !important;
+	box-shadow: 0 20px 0 0 #333 !important;
 }
 g-inner-card {
 	background: #393939 !important;
@@ -217,6 +226,16 @@ g-inner-card {
 }
 .vk_ard, .vk_aru {
     background-color: #999 !important;
+}
+.ksb {
+	border-color: #555 !important;
+	background: #555 !important;
+}
+.ksbs {
+	background: #666 !important;
+}
+._akb {
+	background-color: rgba(33, 150, 243, 0.3) !important;
 }
 #navcnt a {
     color: #BDBDBD !important;
