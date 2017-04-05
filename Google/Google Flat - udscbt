@@ -1,4 +1,4 @@
-#viewport *, #gsr *, #hdtb .hdtb-mitem.hdtb-msel::before, #sblsbb {
+#viewport *, #gsr *, #hdtb .hdtb-mitem.hdtb-msel:before, #sblsbb {
   box-shadow: none !important;
 }
 #searchform #logo img, #searchform #logocont img {
@@ -55,10 +55,20 @@ g-scrolling-carousel {
   background: url(https://drive.google.com/uc?id=0B2K6AHAKA5EXdDc0dTVjbzNLN0U) #EEE;
   background-repeat: no-repeat;
     background-position: 0 0 !important;
-    background-size: 640px auto !important;
 }
 g-section-with-header {
   margin: 0 !important;
+}
+#gsr g-section-with-header g-scrolling-carousel {
+	margin-left: -20px !important;
+	background: #FAFAFA url(https://drive.google.com/uc?id=0B2K6AHAKA5EXdDc0dTVjbzNLN0U) no-repeat !important;
+	background-size: 645px auto !important;
+	box-shadow: 0 25px 0 0 #FAFAFA !important;
+}
+#gsr g-section-with-header g-scrolling-carousel._Ncr, #gsr g-section-with-header g-scrolling-carousel._JSq {
+	margin-left: -20px !important;
+	background: #FAFAFA url(https://drive.google.com/uc?id=0B2K6AHAKA5EXdDc0dTVjbzNLN0U) no-repeat !important;
+	box-shadow: 0 48px 0 0 #FAFAFA !important;
 }
 g-section-with-header g-card-grid {
   visibility: visible !important;
@@ -68,6 +78,15 @@ g-section-with-header g-card-grid {
   background-repeat: no-repeat;
     background-position: 0 0 !important;
     background-size: 640px auto !important;
+}
+._Pcr {
+	padding: 10px 3px 3px 3px !important;
+}
+._Pcr:first-of-type {
+	padding: 10px 3px 3px 6px !important;
+}
+._Iqg {
+	z-index: 10;
 }
 ._sio {
   margin: 15px 5px !important;
@@ -130,4 +149,38 @@ g-section-with-header g-card-grid {
 ._Syg {
     top: 114px !important;
     position: fixed !important;
+}
+
+._Syg g-menu:not(._rpp) {
+    top: 114px !important;
+    position: fixed !important;
+}
+.default-theme {
+	background: #F9F9F9 !important;
+}
+#f {
+	margin-top: 40px;
+}
+#fkbx {
+	padding: 3px 10px 3px 5px !important;
+	border: 0 !important;
+	border-radius: 5px;
+}
+#fkbx-text {
+	margin: 4px 0 0 3px !important;
+}
+#fkbx_crt {
+	top: 10px;
+	left: 12px;
+	height: 22px;
+	width: 2px;
+	border-radius: 3px;
+	background: #777;
+	box-shadow: 0 0.5px 2px 0 rgba(0,0,0,0.25);
+}
+#fkbx-spch {
+	margin-right: 10px;
+}
+#most-visited {
+	margin-top: 30px !important;
 }
