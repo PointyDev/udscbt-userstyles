@@ -31,18 +31,18 @@ body {
 }
 
 /*Top bar*/
-.gb_Ve {
+#gb > div {
 	background: #F44336;
 }
-.gb_Ve::before {
+#gb > div:before {
 	background: none;
 }
 .gb_3b .gb_5b {
 	height: 40px;
 	width: 110px;
 	margin: 12px 0 0 0px;
-	background-position: 0 -2928px;
-	background-size: 110.4px 3049.2px;
+	background-position: 0 -2448px;
+	background-size: 110.4px 3111.6px;
 }
 #gbqf, #gbqff {
 	height: 40px;
@@ -579,8 +579,4 @@ body {
 	font-size: 15px;
 	cursor: pointer;
 }
-}
-
-@-moz-document domain("mail.google.com") {
-/*[[animation]]*/
 }
