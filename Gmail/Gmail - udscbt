@@ -580,3 +580,7 @@ body {
 	cursor: pointer;
 }
 }
+
+@-moz-document domain("mail.google.com") {
+	/*[[animation]]*/
+}
