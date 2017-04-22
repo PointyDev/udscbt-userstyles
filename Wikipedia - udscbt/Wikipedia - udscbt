@@ -1,0 +1,339 @@
+@-moz-document domain("en.wikipedia.org") {
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+#p-personal {
+	display: none;
+}
+
+/*Header*/
+#mw-head-base {
+    margin-left: 0;
+    background: #03A9F4;
+    box-shadow: 0 140px 0 110px #03A9F4;
+}
+#p-logo {
+	position: absolute;
+	top: -110px;
+	left: 35px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-image: url("https://drive.google.com/uc?id=0B2K6AHAKA5EXWVFIelE5M2pVNXM");
+	background-position: 20px 35px;
+	background-size: 75px auto;
+	background-repeat: no-repeat;
+	filter: opacity(0.9) drop-shadow(-1px 1px 0 rgba(255,255,255,0.3));
+	transition: filter 0.2s;
+}
+#p-logo:hover {
+	filter: opacity(0.9) drop-shadow(0 1px 2px rgba(50,50,50,0.4));
+}
+#p-logo a {
+	background: none !important;
+}
+#left-navigation, #right-navigation {
+    margin-top: 15px;
+}
+#left-navigation {
+    margin-left: 200px !important;
+}
+.vectorTabs, .vectorTabs ul, .vectorTabs li, div.vectorTabs span {
+    background: none !important;
+}
+.vectorTabs li {
+	position: relative;
+}
+.vectorTabs li:after {
+    content: '';
+    display: inline-block;
+	position: absolute;
+	top: -18px;
+	left: 5px;
+	width: auto;
+	color: rgba(255,255,255,0.9);
+	font-size: 14px;
+	padding: 4px 8px;
+	border-radius: 3px;
+    margin-top: 4px;
+	background: rgba(50,50,50,0.5);
+	opacity: 0;
+	transition: opacity 0.3s;
+	transition-delay: 1s;
+}
+.vectorTabs li:hover:after {
+	opacity: 1;
+}
+#ca-nstab-main:after {
+	content: 'Main Page';
+}
+#ca-nstab-portal:after {
+	content: 'Portal';
+}
+#ca-nstab-help:after {
+	content: 'Help';
+}
+#ca-nstab-special:after {
+	content: 'Special Page';
+}
+#ca-nstab-user:after {
+	content: 'User Page';
+}
+#ca-nstab-project:after {
+	content: 'Project Page';
+}
+#ca-talk:after {
+	content: 'Discuss';
+}
+#ca-view:after {
+	content: 'View';
+}
+#ca-edit:after {
+	content: 'Edit';
+}
+#ca-addsection:after {
+	content: 'Add Section';
+}
+#ca-viewsource:after {
+	content: 'Source';
+}
+#ca-history:after {
+	content: 'History';
+}
+.vectorTabs li a {
+    visibility: hidden;
+	width: 50px !important;
+}
+.vectorTabs li a:after {
+    content: '';
+    display: block;
+	visibility: visible;
+	position: relative;
+	top: -20px;
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+	background-size: 30px 30px;
+	opacity: 0.8;
+}
+.vectorTabs li.selected a:after {
+    opacity: 1;
+}
+#ca-nstab-main a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXYTRwTTN0R2dsNlU');
+}
+#ca-nstab-portal a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXSHBHaVpFRkwxeVE');
+}
+#ca-nstab-help a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXcVdEUm9KemVqMXc');
+}
+#ca-nstab-special a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXVUhjRFpUY3RCYkE');
+}
+#ca-nstab-user a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXRXQ1Yy12RzZzc0k');
+}
+#ca-nstab-project a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXU0FhdXpIc1ZrMU0');
+}
+#ca-talk a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXV3NUeW1nd0s3ZHc');
+}
+#ca-view a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXNld5UFlKZVdYbTA');
+}
+#ca-edit a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXcHJYN1Q2M3dFRm8');
+}
+#ca-addsection a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXajk5V3ZiVDdKU2c');
+}
+#ca-viewsource a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXWXFxa3FXZWZ3SXM');
+}
+#ca-history a:after {
+	background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXalRUbUJqblR5eW8');
+}
+div#simpleSearch {
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	right: 30%;
+	width: auto;
+	max-width: none;
+	height: 40px;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-left: -10px;
+	background: rgba(0,0,0,0.1);
+	transition: background 0.3s;
+}
+div#simpleSearch #searchInput {
+	width: calc(100% + 22px);
+	color: rgba(0,0,0,0.7);
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 11px 8px 11px 11px;
+	transition: background 0.3s, box-shadow 0.2s, border-radius 0.2s;
+}
+div#simpleSearch #searchInput:focus {
+	border-radius: 3px;
+	background: #FFF;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+div#simpleSearch #searchInput::-webkit-input-placeholder {
+	color: rgba(255,255,255,0.7);
+	transition: color 0.25s;
+}
+div#simpleSearch #searchInput:focus::-webkit-input-placeholder {
+	color: rgba(0,0,0,0);
+}
+#searchInput::-moz-input-placeholder {
+	color: rgba(0,0,0,0.4);
+}
+div#simpleSearch #searchButton, div#simpleSearch #mw-searchButton {
+	margin-right: 10px;
+}
+
+/*Navigation*/
+div#mw-panel {
+	top: 105px;
+	left: -5px;
+	width: 185px;
+}
+#mw-panel .portal .body {
+	background: none !important;
+}
+#mw-panel .portal li {
+	padding: 4px 0 !important;
+}
+div#mw-panel div.portal h3 {
+	color: #616161;
+	font-size: 16px;
+	padding-left: 5px;
+}
+#mw-panel .portal li a {
+	color: #424242 !important;
+	font-size: 14px;
+}
+#mw-panel #p-navigation {
+	position: relative;
+	top: -20px;
+	left: -5px;
+}
+#mw-panel #p-navigation li {
+	padding: 0 !important;
+	border-radius: 3px 5px 5px 3px;
+	transition: background 0.2s, border-width 0.1s;
+}
+#mw-panel #p-navigation li:hover {
+	border-left: 5px solid rgba(255,193,7,0.4);
+	background: rgba(255,255,255,0.15);
+}
+#mw-panel #p-navigation li a {
+	display: block;
+	color: rgba(255,255,255,0.95) !important;
+	font-size: 15px;
+	padding: 8px 0 8px 7px;
+}
+
+#content {
+    border: 0 !important;
+    margin: 10px 20px 0 190px !important;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+
+/* Home page */
+#mp-topbanner {
+    border: 0 !important;
+}
+
+.mp-thumb {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+
+/* Main page */
+.mw-body-content {
+	font-family: 'Roboto';
+	color: rgba(0,0,0,0.7);
+	font-size: 15px;
+}
+.mw-body h1, .mw-body-content h1, .mw-body-content h2, h2 .mw-headline, .mw-body-content h3, .mw-body-content h4 {
+	color: rgba(0,0,0,0.87);
+    border: 0;
+	overflow: visible;
+}
+#firstHeading {
+    position: relative;
+    font-family: 'Roboto Slab';
+	font-size: 30px;
+    margin-bottom: 30px;
+}
+#firstHeading:before {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    display: block;
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background: #FFC107;
+}
+#siteSub {
+	display: none;
+}
+.mw-body-content h2 {
+    font-family: 'Roboto Slab';
+}
+a, .mw-body-content a.extiw, .mw-body-content a.extiw:active, .mw-body-content a.external {
+	text-decoration: none !important;
+	transition: color 0.2s;
+}
+ul {
+    list-style: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXQnN6SENCeXFOWFk');
+}
+blockquote {
+	position: relative;
+	padding: 0 40px 0 28px;
+}
+blockquote:before {
+	content: '';
+    position: absolute;
+	left: 10px;
+    display: block;
+    width: 4px;
+    height: 100%;
+    border-radius: 2px;
+    background: #FFC107;
+}
+blockquote > p {
+	margin: 3px 0 !important;
+}
+.mw-highlight {
+	border-radius: 5px;
+}
+pre, .mw-code, code {
+	border: 0;
+	border-radius: 5px;
+	background: #F5F5F5;
+}
+code {
+	border-radius: 3px;
+}
+
+.infobox, #toc, .toc, .mw-warning, .toccolours, div.thumbinner, li.gallerybox div.thumb, .mw-body .portal, .vertical-navbox, .sistersitebox {
+	border: 0 !important;
+	border-radius: 3px;
+	padding: 10px;
+	box-shadow: 0 1px 5px -1px rgba(0,0,0,0.3);
+}
+li.gallerybox div.thumb {
+	width: auto !important;
+}
+.thumbimage {
+	border: 0 !important;
+}
+}
