@@ -29,7 +29,7 @@ a:hover {
     position: absolute !important;
     top: -290px !important;
 }
-.gb_nf.gb_R.gb_Cf.gb_uf, #prm, .gb_lb, .gb_wf, .gb_sf, .gb_P, .gb_mb {
+.gb_nf.gb_R.gb_Cf.gb_uf, #prm, .gb_lb, .gb_wf, .gb_P, .gb_mb {
     display: none !important;
 }
 .gb_Jc .gb_b {
@@ -373,11 +373,15 @@ body.hp {
     position: relative;
     left: -15px;
 }
-.hdtb-mn-o, .hdtb-mn-c {
+.hdtb-mn-o, .hdtb-mn-c, ._dMq {
     border: 0 !important;
     border-radius: 3px;
 	margin: 5px 0 0 10px;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+}
+._dMq {
+	margin-top: 0;
+	margin-left: 0;
 }
 .hdtbItm a, .hdtbItm.hdtbSel, #cdrlnk {
 	padding: 5px 40px 5px 20px !important;
@@ -596,7 +600,7 @@ g-card-grid>* {
 ._ojo {
     margin-left: 10px;
 }
-._ojo h3 {
+._ojo h3, ._U5o {
     font-size: 22px !important;
 	line-height: 25px;
     color: #757575 !important;
@@ -611,6 +615,9 @@ g-inner-card {
 }
 g-inner-card:hover {
     box-shadow: 0 1px 6px 0 rgba(0,0,0,0.3) !important;
+}
+#rhs ._iVn {
+	padding: 10px 15px;
 }
 ._NRj {
 	padding-right: 16px;
@@ -856,7 +863,13 @@ g-section-with-header g-scrolling-carousel._Ncr, g-section-with-header g-scrolli
 ._LSh {
 	display: none;
 }
-.zr_yellow, .zr_red, #zr_share_score_text, #zr_reset_text, .zr_button {
+._BZc, .scrt tr td, ._vri, ._S5o, ._T5o, ._S6g._Dbj {
+	border: none !important;
+}
+._T5o {
+	margin: 5px;
+}
+.zr_yellow, .zr_red, #zr_share_score_text, #zr_reset_text, .zr_button, ._A2o, ._S5o {
 	background: none !important;
 }
 .zr_yellow:before, .zr_red:before {
@@ -923,7 +936,7 @@ a.chip span.sq {
     box-shadow: none;
     margin-left: -20px !important;
 }
-#lu_map {
+#lu_map, ._S5o {
     width: 640px;
     height: auto;
 }
