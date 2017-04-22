@@ -52,10 +52,10 @@
 .gb_O:before, .gb_yb:before, g-menu-item a:before, #sfdiv:before {
 	background: #DDD !important;
 }
-.gb_ka, .gb_ha, .hdtb-mn-o, .hdtb-mn-c, .hdtbItm, g-menu, .gb_yb .gb_xb, .gb_zb .gb_yb, .ab_dropdown, .action-menu-panel, .sbsb_a, .gb_zb, .gb_yb {
+.gb_ka, .gb_ha, .hdtb-mn-o, .hdtb-mn-c, .hdtbItm, g-menu, .gb_yb .gb_xb, .gb_zb .gb_yb, .ab_dropdown, .action-menu-panel, .sbsb_a, .gb_zb, .gb_yb, ._dMq {
 	background: #292929 !important;
 }
-.gb_Z:hover .gb_O, .gb_Z:hover .gb_4, .hdtbItm a:hover, #cdrlnk:hover, .gb_Ha:hover, .gb_Cb, .gb_Db:hover, .ab_dropdownitem:hover, .action-menu-item:hover, .sbsb_d, g-menu-item:hover {
+.gb_Z:hover .gb_O, .gb_Z:hover .gb_4, .hdtbItm a:hover, #cdrlnk:hover, .gb_Ha:hover, .gb_Cb, .gb_Db:hover, .ab_dropdownitem:hover, .action-menu-item:hover, .sbsb_d, g-menu-item:hover, .gb_Fb {
     background: #303030 !important;
 }
 .gb_ma, .gb_la, .cdr_sep, .vk_arc {
@@ -77,7 +77,7 @@
 .hdtb-mn-cont .mn-dwn-arw {
 	border-color: #AAA transparent !important;
 }
-.hdtb-mitem a, #hdtb-tls, #hdtb-tls:hover, .ab_dropdownitem a.fl, .ab_dropdownitem:hover a.fl, .action-menu-item a, .action-menu-item:hover a {
+.hdtb-mitem a, #hdtb-tls, #hdtb-tls:hover, .ab_dropdownitem a.fl, .ab_dropdownitem:hover a.fl, .action-menu-item a, .action-menu-item:hover a, a._VJq, a._VJq:visited, #hdtb-tls:active, #hdtb-tls.hdtb-tl-sel {
 	color: #BBB !important;
 }
 #hdtb-tls:hover {
@@ -119,17 +119,23 @@
 .g a, ._dTj, ._MLo, ._NLo, #center_col ._Ak a._kBb, .lr_dct_more_btn, .gb_ob a, ._Mqe, ._tX, .w {
     color: #2196F3 !important;
 }
-.s, .s .st em, .st.s.std em, ._AOf, .st, .kno-fb-ctx, ._xdb .fl, #center_col ._Ak, .ads-creative b, body, ._Lqc, .lc-loc-text, .sr__title, .stt__tool, #gb#gb a.gb_O, .gb_la, .gb_ma, .gb_vb, .gb_yb .gb_xb, .gb_Ob, ._pk, ._Adb, ._W5e a, ._czk, a.ab_button, ._W5e, ._Xbe, ._xdb .fl, .knowledge-webanswers_table__webanswers-table th, .ab_ctl, .vk_bk, .ksbs {
+.s, .s .st em, .st.s.std em, ._AOf, .st, ._xdb .fl, #center_col ._Ak, .ads-creative b, body, ._Lqc, .lc-loc-text, .sr__title, .stt__tool, #gb#gb a.gb_O, .gb_la, .gb_ma, .gb_vb, .gb_yb .gb_xb, .gb_Ob, ._pk, ._Adb, ._W5e a, ._czk, a.ab_button, ._W5e, ._Xbe, ._xdb .fl, .knowledge-webanswers_table__webanswers-table th, .ab_ctl, .vk_bk, .ksbs, .rl_item .title, ._Zlr, ._bCn ._Tcr, ._Rsi, ._Ejf, ._Kjg, ._rl, ._lTo, ._Mnl, ._Lnl, ._Inl, ._Hnl, ._Knl, ._Jnl, ._Gnl, ._x2i ._baf b, ._Usf, ._wje, ._ZFj, ._mgh, ._cke, .gb_Qb {
 	color: #BDBDBD !important;
 }
 .hdtb-mn-hd, .hdtbItm.hdtbSel, g-menu-item a, ._Gs {
 	color: #AAA !important;
 }
-._Wmc, .f, ._v5, ._cwc, .ftl, #footer a, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Axb, .sr__link, .sr__link:link, .sr__link:visited, .gb_wb, .gb_Pb, ._RLb, ._Y6c, ._fnc, ._kub, a._Zjg, ._Q8d, ._mVg, ._HKg, .vk_gy, .ksb:not(.ksbs) {
+._Wmc, .f, ._v5, ._cwc, .ftl, #footer a, .shop__secondary, .shop__secondary:link, .shop__secondary:visited, ._Axb, .sr__link, .sr__link:link, .sr__link:visited, .gb_wb, .gb_Pb, ._RLb, ._Y6c, ._fnc, ._kub, a._Zjg, ._Q8d, ._mVg, ._HKg, .vk_gy, .ksb:not(.ksbs), ._Sxr, ._tmr, ._bCn ._Ucr, ._nYn, ._Db, ._YSo, ._x2i ._baf {
 	color: #858585 !important;
 }
-.hdtb-mn-hd:hover, .hdtbItm, ._HR a, #swml a:hover {
+.hdtb-mn-hd:hover, .hdtbItm, ._HR a, #swml a:hover, ._Rf.rlf__open:not(.rlf__applied), ._Rf:not(.rlf__applied):hover {
 	color: #888 !important;
+}
+.kno-fb-ctx {
+	color: rgba(255,255,255,0.7) !important;
+}
+.kno-ecr-pt {
+	color: rgba(255,255,255,0.9) !important;
 }
 .ads-ad a, a:link {
 	color: #2196F3;
@@ -146,10 +152,10 @@
 .sbpqs_a {
 	color: #9575CD !important;
 }
-._ayg, ._Ezj {
+._ayg, ._Ezj, ._pxg {
         background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXMHFrSExWdFdSQWs') !important;
     }
-._ayg span, ._OBj {
+._ayg span, ._OBj, ._pxg span {
         background-image: url('https://drive.google.com/uc?id=0B2K6AHAKA5EXNXh0MWFQWWV3Sms') !important;
     }
 ._Rm, .mn-dwn-arw {
@@ -159,21 +165,21 @@
 ._IId, .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc>i, .bc a:link {
 	color: #26A69A !important;
 }
+._V4e, ._Q, .rl_item, ._X4e, #rhs ._iVn, ._yX, ._she, ._xe, ._Db, ._A2o, ._S5o, ._F2i {
+	background: none !important;
+}
 ._mB {
 	color: #DDD;
 	background: #26A69A;
-}
-.kno-ecr-pt {
-	color: #DDD !important;
 }
 .g-blk {
 	background: transparent !important;
 	box-shadow: none !important;
 }
-.g-blk * {
+.g-blk *, ._qJg, ._M4k, ._P4k {
 	border-color: #777 !important;
 }
-._ojo h3 {
+._ojo h3, ._U5o {
 	color: #BDBDBD !important;
 }
 #gsr g-section-with-header g-scrolling-carousel, g-card-grid {
@@ -204,6 +210,9 @@ g-inner-card {
 .xpdxpnd img {
 	filter: invert(80%) hue-rotate(180deg);
 }
+._bgi img, ._eSg img {
+	filter: invert(0) hue-rotate(0);
+}
 ._xk {
 	background-color: #666;
 }
@@ -211,6 +220,22 @@ g-inner-card {
 	border-radius: 5px;
 	background-color: #777;
 	color: #333;
+}
+.g-blk ._Lio {
+	border-color: transparent transparent transparent #666 !important;
+}
+._yX td {
+	border-color: #555 !important;
+}
+._vri {
+	background: #009688;
+}
+._uqh, ._W6g._Dbj {
+	color: rgba(255, 255, 255, 0.8) !important;
+	background: #616161 !important;
+}
+._lXc .knowledge-health__tab-overview {
+	border-color: #FFEB3B !important;
 }
 .vk_ard:after {
     border-top: 16px solid #333 !important;
@@ -257,8 +282,9 @@ g-loading-icon {
 	background: #666;
 }
 
+/*Google Maps*/
 #app-container .widget-scene-canvas, #lu_map {
-	filter: invert(100%) grayscale(30%) brightness(120%) hue-rotate(180deg);
+	filter: invert(100%) brightness(250%) hue-rotate(180deg) saturate(200%);
 }
 #app-container.app-globe-mode .widget-scene-canvas, #app-container.app-imagery-mode .widget-scene-canvas {
 	filter: none;
