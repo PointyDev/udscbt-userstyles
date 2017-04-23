@@ -3,4 +3,4 @@ A collection of my styles posted on userstyles.org, also including those in deve
 ### Current styles
 1. [Google - udscbt](https://userstyles.org/styles/138068/google-material-design-udscbt)
 2. Gmail - udscbt
-3. Wikipedia - udscbt
+3. [Wikipedia - udscbt](https://userstyles.org/styles/141695/wikipedia-udscbt)
