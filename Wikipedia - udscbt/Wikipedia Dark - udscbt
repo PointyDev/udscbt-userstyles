@@ -1,0 +1,58 @@
+@-moz-document domain("en.wikipedia.org") {
+body {
+	background: #494949;
+}
+#content {
+	background: #333;
+}
+#mw-head-base {
+    background: #00796B;
+    box-shadow: 0 140px 0 110px #00796B;
+}
+
+.mw-body h1, .mw-body-content h1, .mw-body-content h2, h2 .mw-headline, .mw-body-content h3, .mw-body-content h4 {
+	color: rgba(255,255,255,0.95);
+}
+.mw-body-content, .infobox, .tocnumber {
+	color: rgba(255,255,255,0.8);
+}
+#mw-panel .portal li a {
+	color: rgba(255,255,255,0.7) !important;
+}
+#mw-panel .portal h3 {
+	color: rgba(255,255,255,0.5) !important;
+}
+a, .mw-body-content a.extiw, .mw-body-content a.extiw:active, .mw-body-content a.external {
+	color: #40C4FF;
+}
+a:visited, .mw-body-content a.external:visited, .mw-body-content a.extiw:visited {
+	color: #E040FB;
+}
+a:hover, .mw-body-content a.external:hover {
+	color: #1E88E5;
+}
+a:visited:hover {
+	color: #7E57C2;
+}
+table.ambox, #catlinks, .navbox, .navbox-subgroup {
+	background: #424242 !important;
+}
+table.ambox, #catlinks, .navbox, .navbox-subgroup {
+	border: none !important;
+	border-radius: 3px;
+}
+table.ambox {
+	margin: 10px 8%;
+}
+.infobox, #toc, .toc, .mw-warning, .toccolours, div.thumbinner, li.gallerybox div.thumb, .mw-body .portal, .vertical-navbox, .sistersitebox {
+	background: #2C2C2C !important;
+	box-shadow: 0 1px 5px -1px rgba(0,0,0,0.5);
+}
+.infobox th[style *= 'background'] {
+	background: #393939 !important;
+}
+
+.mwe-math-fallback-image-inline, .mwe-math-fallback-image-display, .mwe-math-mathml-display {
+	filter: invert(90%);
+}
+}
