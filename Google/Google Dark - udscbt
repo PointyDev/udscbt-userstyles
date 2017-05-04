@@ -1,4 +1,4 @@
-@-moz-document regexp("https?://www.google.(com|co.[a-z]{2}|com.[a-z]{2}|[a-z]{2}).*") {
+@-moz-document regexp("https?://(www|encrypted).google.(com|co.[a-z]{2}|com.[a-z]{2}|[a-z]{2}).*") {
 #hdtb, .sfbg, .sfbgg, .sfbgx, #hdtbSum, #hdtbMenus {
     background: #212121 !important;
 }
