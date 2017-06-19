@@ -1,5 +1,6 @@
 @-moz-document domain("mail.google.com") {
-body {
+
+body, td, input, textarea, select {
 	font-family: 'Roboto';
 }
 
@@ -30,6 +31,19 @@ body {
 	background: #0288D1;
 }
 
+.vX .vh {
+	position: fixed;
+	top: 0;
+	right: 180px;
+	color: #FFF;
+	font-size: 15px;
+	padding: 6px 12px 7px 12px;
+	border: 0;
+	border-radius: 0 0 3px 3px;
+	background: #00BFA5;
+	box-shadow: 0 1px 6px 0 rgba(0,121,107,0.6);
+}
+
 /*Top bar*/
 #gb > div {
 	background: #F44336;
@@ -37,7 +51,7 @@ body {
 #gb > div:before {
 	background: none;
 }
-.gb_3b .gb_5b {
+.gb_2b .gb_4b {
 	height: 40px;
 	width: 110px;
 	margin: 12px 0 0 0px;
@@ -55,14 +69,15 @@ body {
 	margin-right: -60px;
 	background: rgba(255,255,255,0.6);
 	box-shadow: none !important;
-	transition: background 0.3s, box-shadow 0.25s;
+	transition: border-radius 0.2s, background 0.3s, box-shadow 0.25s;
 }
-#gbqfqw.gsfe_a {
+#gbqfqw:hover {
 	background: rgba(255,255,255,0.9);
 }
-#gbqfqw.gsfe_b {
+#gbqfqw.gbqfqwf {
+	border-radius: 3px;
 	background: rgb(255,255,255);
-	box-shadow: 0 1px 6px 0 rgba(0,0,0,0.3) !important;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3) !important;
 }
 .gsib_a {
 	padding: 0;
@@ -72,7 +87,7 @@ body {
 }
 .gbqfif {
 	color: rgba(0,0,0,0.6);
-	font-size: 16px;
+	font-size: 18px;
 	width: calc(100% - 50px) !important;
 	padding-left: 10px !important;
 	margin: 0 !important;
@@ -108,7 +123,7 @@ body {
 	border: 0 !important;
 	margin-top: -5px;
 	background-color: #F44336 !important;
-	box-shadow: 0 1px 8px rgba(0,0,0,0.3) !important;
+	box-shadow: 0 1px 12px rgba(0,0,0,0.4) !important;
 }
 .akh {
 	color: rgba(255,255,255,0.85);
@@ -195,7 +210,7 @@ body {
 	padding: 10px 0 10px 25px;
 }
 .aim {
-	padding: 5px 0 5px 15px;
+	padding: 6px 0 6px 15px;
 	transition: background 0.2s;
 }
 .bkJ .aim {
@@ -214,10 +229,10 @@ body {
 	margin-left: -6px;
 }
 .TK .nL {
-	width: 20px;
-	height: 20px;
-	margin: -10px 0 0 5px;
-	background-size: 20px 20px !important;
+	width: 24px;
+	height: 24px;
+	margin: -12px -2px 0 5px;
+	background-size: 24px 24px !important;
 	opacity: 0.6;
 }
 .aiq .nL {
@@ -244,12 +259,17 @@ body {
 	margin-right: -15px !important;
 }
 
+/*New Mail*/
+.dw {
+	z-index: 12;
+}
+
 /*Main part*/
 .Tm, .age {
 	background: #F5F5F5;
 }
 .aeJ {
-	padding: 10px 10px 0 25px;
+	padding: 5px 10px 0 25px;
 }
 
 /*Navigation tabs*/
@@ -312,6 +332,14 @@ body {
 .J-KU-KO .aKz {
 	color: #000;
 }
+.aKj {
+	border-color: transparent;
+}
+.aRw {
+	width: 10px;
+	background-position: 0 0;
+	background-size: 10px 10px;
+}
 
 /*Mail list*/
 .UI .TB {
@@ -338,8 +366,8 @@ body {
 .zA {
 	padding: 5px 0 5px;
 }
-.zA>* {
-	border-bottom: 1px solid rgba(0,0,0,0.05);
+.xY {
+	border-color: #EEE;
 }
 .zA:last-of-type>* {
 	border: none;
@@ -413,7 +441,7 @@ body {
 .Bk .G2 {
 	border: 0;
 }
-.iY .Bu {
+.iY .Bu, .aE3 .UG {
 	border-radius: 3px;
 	background: none;
 }
@@ -436,7 +464,7 @@ body {
 	border-radius: 50%;
 	margin: -7px 0 0 -10px;
 }
-.iY .gs {
+.iY .gs, .aE3 .gs {
 	border-radius: 3px;
 	padding: 2px 15px 3px 15px;
 	background: #FFF;
@@ -448,6 +476,31 @@ body {
 .ii a[href], .adI .B9, .aBj .aBf, .ac8, .ac6, .gR, .a8R, .acT, .h8 {
 	color: #1976D2;
 	text-decoration: none !important;
+}
+
+.nH.bno {
+	padding: 3px 5px;
+	border-radius: 3px;
+	margin-top: 15px;
+	background: #FFF;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	
+}
+.azg {
+	padding: 0 4px 10px 4px;
+	margin: 10px 5px 0 5px;
+}
+.anO {
+	height: auto;
+	font-size: 14px;
+	padding: 3px 1px !important;
+}
+.am6 {
+	border: 0;
+	margin: 0;
+}
+.aoa {
+	padding: 5px 5px 5px 15px;
 }
 
 .acS, .bC, .adc, .gS, .ac7, .h9, .adI, .aBj, .aHl {
@@ -496,6 +549,20 @@ body {
 	color: #777;
 }
 
+/*Panel*/
+.apj, .aph {
+	border: none;
+}
+
+/*Footer*/
+.l2 {
+	padding: 25px 15px 0 15px;
+}
+.md, .ma, .l6 {
+	font-size: 12px;
+	padding-top: 0 !important;
+}
+
 /*Floating Action button*/
 .z0, .MX {
 	position: fixed;
@@ -515,7 +582,7 @@ body {
 	box-shadow: 0 2px 6px rgba(47,7,7,0.4);
 	transition: box-shadow 0.3s;
 	cursor: pointer;
-	z-index: 100;
+	z-index: 10;
 }
 .MX {
 	background: #2196F3 url('https://drive.google.com/uc?id=0B2K6AHAKA5EXaHRRU0FXS21OYW8') no-repeat;
@@ -579,8 +646,4 @@ body {
 	font-size: 15px;
 	cursor: pointer;
 }
-}
-
-@-moz-document domain("mail.google.com") {
-	/*[[animation]]*/
 }
