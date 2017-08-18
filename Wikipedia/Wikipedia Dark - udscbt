@@ -18,7 +18,7 @@ body {
 	background: #494949;
 }
 #content {
-	background: #333;
+	background: #3A3A3A;
 }
 #mw-head-base {
     background: #00796B;
@@ -45,13 +45,13 @@ div#simpleSearch #searchButton, div#simpleSearch #mw-searchButton {
 }
 
 .mw-body h1, .mw-body-content h1, .mw-body-content h2, h2 .mw-headline, .mw-body-content h3, .mw-body-content h4, h5, h6 {
-	color: rgba(255,255,255,0.95);
+	color: rgba(255,255,255,0.9);
 }
 .mw-body-content, .infobox, .tocnumber, .wikitable th, .wikitable td, ol.references, div.reflist, div.refbegin {
-	color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.78);
 }
-.MainPageBG td, #mp-topbanner {
-	color: rgba(255,255,255,0.8) !important;
+.MainPageBG td, #mp-topbanner, .MainPageBG, .referencetooltip .reference-text, .mwe-popups-extract, .sistersitebox, .selfref, .infobox th[style *= 'background'], .wikitable th {
+	color: rgba(255,255,255,0.78) !important;
 }
 #mw-panel .portal li a, div#footer ul li {
 	color: rgba(255,255,255,0.7) !important;
@@ -60,48 +60,57 @@ div#simpleSearch #searchButton, div#simpleSearch #mw-searchButton {
 	color: rgba(255,255,255,0.5) !important;
 }
 a, .mw-body-content a.extiw, .mw-body-content a.extiw:active, .mw-body-content a.external {
-	color: #00B0FF;
+	color: #4FC3F7;
 }
 a.new {
-	color: #E53935;
+	color: #EF5350;
 }
 a:visited, .mw-body-content a.external:visited, .mw-body-content a.extiw:visited {
-	color: #C939E1;
+	color: #CB67DC;
 }
 a:hover, .mw-body-content a.external:hover {
-	color: #1E88E5;
+	color: #039BE5;
 }
 #mp-upper td:empty, #mp-lower:before, #mp-middle:before {
 	background: rgba(255,255,255,0.05);
 }
-table.ambox, #catlinks, .navbox, .navbox-subgroup {
+#catlinks, .navbox, .navbox-subgroup {
 	background: #424242 !important;
 }
-table.ambox, #catlinks, .navbox, .navbox-subgroup {
+ #catlinks, .navbox, .navbox-subgroup {
 	border: none !important;
 	border-radius: 3px;
 }
 table.ambox {
 	margin: 10px 8%;
 }
-.infobox, #toc, .toc, .mw-warning, .toccolours, div.thumbinner, .mw-body .portal, .vertical-navbox, .sistersitebox, table.wikitable, .gallerybox {
+.infobox, #toc, .toc, .mw-warning, .toccolours, div.thumbinner, .mw-body .portal, .vertical-navbox, .sistersitebox, table.wikitable, .gallerybox, .tracklist {
 	background: #2C2C2C !important;
 	box-shadow: 0 1px 5px -1px rgba(0,0,0,0.5);
+}
+#centralNotice .cnotice, .ambox, .ombox, .tmbox, .dmbox, .mbox-small, .fmbox {
+	background: #37474F !important;
 }
 .gallerybox .thumb img {
 	box-shadow: 0 1px 5px -1px rgba(0,0,0,0.5);
 }
-.infobox th[style *= 'background'], .wikitable th {
-	background: #3A3A3A !important;
+.infobox th[style *= 'background'], .wikitable th, .tracklist th {
+	background: rgba(213, 0, 249,0.1) !important;
 }
-.wikitable caption {
-	background: #1E88E5;
+.wikitable thead th, .infobox .summary {
+	background: rgba(213, 0, 249,0.26) !important;
+}
+.infobox caption, .infobox caption.summary, .wikitable caption {
+	background: #1E88E5 !important;
 }
 .navbox-title {
 	background: #0097A7 !important;
 }
 .navbox-abovebelow {
 	background: #00ACC1 !important;
+}
+.navbox-list {
+	border-color: transparent !important;
 }
 pre, .mw-code, code {
 	color: #DDD;
@@ -111,7 +120,18 @@ code {
 	padding: 2px 6px;
 }
 
+#preferences {
+	background: none !important;
+}
+
 .mwe-math-fallback-image-inline, .mwe-math-fallback-image-display, .mwe-math-mathml-display {
 	filter: opacity(85%) invert(100%);
+}
+
+.referencetooltip li[id *= 'cite_note'], .mwe-popups {
+	background: #37474F;
+}
+.mwe-popups-extract:after {
+	background: linear-gradient(to right, rgba(0,0,0,0), #37474F 50%) !important;
 }
 }
